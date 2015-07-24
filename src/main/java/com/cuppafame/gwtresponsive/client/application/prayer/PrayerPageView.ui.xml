@@ -1,0 +1,70 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<ui:with field="res"
+		type="com.cuppafame.gwtresponsive.client.resources.MainResources" />
+	<ui:with field="msg"
+		type="com.cuppafame.gwtresponsive.client.resources.MainMessages" />
+
+	<g:HTMLPanel addStyleNames="{res.css.mainPlacePanel}">
+		<!--<ui:safehtml from="{msg.about}"/>-->
+        <g:Grid>
+            <g:row styleName="{res.css.mainStackPanelHeader}">
+                <g:customCell styleName="{res.css.mainStackPanelHeader}">
+                    <g:Label>Prayer</g:Label>
+                </g:customCell>
+                <g:customCell styleName="{res.css.mainStackPanelHeader}">
+                    <g:Label>Time</g:Label>
+                </g:customCell>
+            </g:row>
+            <g:row>
+                <g:cell>
+                    <div><ui:text from="{msg.ptFajr}"/></div>
+                </g:cell>
+                <g:cell>
+                    <div>10:22 PM</div>
+                </g:cell>
+            </g:row>
+            <g:row>
+                <g:cell>
+                    <div><ui:text from="{msg.ptSunrise}"/></div>
+                </g:cell>
+                <g:cell>
+                    <div>10:22 PM</div>
+                </g:cell>
+            </g:row>
+            <g:row>
+                <g:cell>
+                    <div><ui:text from="{msg.ptDhuhr}"/></div>
+                </g:cell>
+                <g:cell>
+                    <div>10:22 PM</div>
+                </g:cell>
+            </g:row>
+            <g:row>
+                <g:cell>
+                    <div><ui:text from="{msg.ptAsr}"/></div>
+                </g:cell>
+                <g:cell>
+                    <div>10:22 PM</div>
+                </g:cell>
+            </g:row>
+            <g:row>
+                <g:cell>
+                    <div><ui:text from="{msg.ptMaghrib}"/></div>
+                </g:cell>
+                <g:cell>
+                    <div>10:22 PM</div>
+                </g:cell>
+            </g:row>
+            <g:row>
+                <g:cell>
+                    <div><ui:text from="{msg.ptIsha}"/></div>
+                </g:cell>
+                <g:cell>
+                    <div>10:22 PM</div>
+                </g:cell>
+            </g:row>
+        </g:Grid>
+	</g:HTMLPanel>
+</ui:UiBinder>

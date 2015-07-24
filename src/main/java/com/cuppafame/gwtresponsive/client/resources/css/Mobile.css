@@ -1,0 +1,71 @@
+@media all and (max-width: 800px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+		border: none;
+	}
+	.cardPlace {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.gwt-DialogBox {
+		width: 90%;
+	}
+	.mainNorthPanel {
+		position: absolute;
+		top: -3em;
+	}
+	.rvImage {
+		width:      100%;
+		height:     100%;
+		max-width:  480px;
+		max-height: 480px;
+	}
+	.mainMenuToggler {
+		display: inline-block;
+	}
+	.mainMenu {
+		position: static;
+	}
+	
+	.mainMenuContainer {
+		display: block;
+		float: left;
+		position: relative;
+	}
+	.mainRootPanel[menu="off"] .mainMenuContainer {
+		margin-left: -100%;
+	}
+	.mainRootPanel[menu="on"] .mainMenuContainer {
+		margin-left: 0px;
+	}
+	.mainStackPanel {
+		min-height: 0px;
+		max-height: none;
+	}
+	.mainPlaceContainer {
+		display: block;
+		float: left;
+		position: relative;
+	}
+	.mainRootPanel[menu="off"] .mainPlaceContainer {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	.mainRootPanel[menu="on"] .mainPlaceContainer {
+		margin-left: 0px;
+		margin-right: -100%;
+		width: 100%;
+	}
+	.mainPlacePanel {
+		margin: 1em 0px 1em 0px;
+		border: none;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.mobi-rvPan, .mobi-rv-leftPan, .mobi-rv-rightPan {
+		display: block;
+	}
+}
